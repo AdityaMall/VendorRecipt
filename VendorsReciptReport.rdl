@@ -1463,21 +1463,7 @@
                             <TablixMembers>
                               <TablixMember />
                               <TablixMember>
-                                <Group Name="Vendor_No_">
-                                  <GroupExpressions>
-                                    <GroupExpression>=Fields!Vendor_No_.Value</GroupExpression>
-                                  </GroupExpressions>
-                                </Group>
-                                <SortExpressions>
-                                  <SortExpression>
-                                    <Value>=Fields!Vendor_No_.Value</Value>
-                                  </SortExpression>
-                                </SortExpressions>
-                                <TablixMembers>
-                                  <TablixMember>
-                                    <Group Name="Details1" />
-                                  </TablixMember>
-                                </TablixMembers>
+                                <Group Name="Details1" />
                               </TablixMember>
                             </TablixMembers>
                           </TablixRowHierarchy>
@@ -1605,9 +1591,6 @@ End Function
   <DataSets>
     <DataSet Name="DataSet_Result">
       <Fields>
-        <Field Name="No_">
-          <DataField>No_</DataField>
-        </Field>
         <Field Name="FromDate">
           <DataField>FromDate</DataField>
         </Field>

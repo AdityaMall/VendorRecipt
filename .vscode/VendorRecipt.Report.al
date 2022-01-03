@@ -9,17 +9,11 @@ report 50111 VendorReport
 
     dataset
     {
-        dataitem(Vendor; Vendor)
-        {
-            DataItemTableView = sorting("No.");
-            column(No_; "No.")
-            {
 
-            }
-        }
         dataitem("Vendor Ledger Entry"; "Vendor Ledger Entry")
         {
             DataItemTableView = sorting("Entry No.");
+
 
             column(FromDate; FromDate)
             {
