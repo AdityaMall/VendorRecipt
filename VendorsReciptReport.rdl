@@ -1408,10 +1408,7 @@
                                             <TextRuns>
                                               <TextRun>
                                                 <Value>=Fields!Amount.Value</Value>
-                                                <Style>
-                                                  <Format>0.00'AED';(0.00'AED')</Format>
-                                                  <rd:FormatSymbolCulture>en-AE</rd:FormatSymbolCulture>
-                                                </Style>
+                                                <Style />
                                               </TextRun>
                                             </TextRuns>
                                             <Style>

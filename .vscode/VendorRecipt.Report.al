@@ -61,7 +61,8 @@ report 50111 VendorReport
             }
             column(Amount; Amount)
             {
-
+                AutoFormatExpression = 'AED';
+                AutoFormatType = 1;
             }
 
             trigger OnPreDataItem()
